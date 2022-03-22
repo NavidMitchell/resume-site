@@ -1,10 +1,27 @@
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
-
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'Navid Mitchell',
+  siteDescription: 'Navid Mitchell\'s Resume',
+  siteUrl: 'https://navidmitchell.com',
+  plugins: [
+    {
+      use: 'gridsome-plugin-typescript',
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+       // id: 'UA-72659574-11'
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000
+      }
+    }
+  ],
+  css: {
+    loaderOptions: {
+      scss: {}
+    }
+  }
 }
