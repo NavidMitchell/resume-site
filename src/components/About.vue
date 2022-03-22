@@ -2,42 +2,35 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0">
-        Loke
-        <span class="text-primary">Carlsson</span>
+        Navid
+        <span class="text-primary">Mitchell</span>
       </h1>
       <div class="subheading mb-5">
-        9695 Foo street · Bar town, CO 93440 · (123) 456-7890 ·
+        Albuquerque, NM · (575) 640-8458 ·
         <a
-          href="mailto:name@email.com"
-        >name@email.com</a>
+          href="mailto:navid@mindsignited.com"
+        >navid@mindsignited.com</a>
       </div>
       <p
-        class="lead mb-5"
-      >I am experienced in Vue.js and React.js in which I produce high quality code for my clients that are both well performing and well tested. I focus on solving problems, not only technical problems but creating an awesome experience for the users of my software both visual and accessible. Mixing powerful tools and knowledge about the users brings visual UI's to life and leads to webpages being accessible and useful.</p>
-      <p class="lead mb-5">
-        Get your own resume started using this template with Gridsome here:
-        <a
-          href="https://github.com/LokeCarlsson/gridsome-starter-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Github repo</a>.
+        class="lead mb-5">
+        I am experienced in Vue.js and React.js in which I produce high quality code for my clients that are both well performing and well tested. I focus on solving problems, not only technical problems but creating an awesome experience for the users of my software both visual and accessible. Mixing powerful tools and knowledge about the users brings visual UI's to life and leads to webpages being accessible and useful.
       </p>
+<!--      <p class="lead mb-5">-->
+<!--        Social links here:-->
+<!--      </p>-->
       <div class="social-icons">
-        <a href="https://linkedin.com/in/lokecarlsson" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+        <a href="https://linkedin.com/in/navidmitchell/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
           <font-awesome :icon="['fab', 'linkedin']"/>
         </a>
-        <a href="https://github.com/LokeCarlsson" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+        <a href="https://github.com/NavidMitchell" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
           <font-awesome :icon="['fab', 'github']"/>
         </a>
-        <a href="https://twitter.com/carlssonloke" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
-          <font-awesome :icon="['fab', 'twitter']"/>
+        <a href="https://stackoverflow.com/users/2284927/navid-mitchell" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow Profile">
+          <font-awesome :icon="['fab', 'stack-overflow']"/>
         </a>
-        <a href="https://www.facebook.com/carlssonloke" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
-          <font-awesome :icon="['fab', 'facebook']"/>
-        </a>
-        <a href="https://loke.dev" target="_blank" rel="noopener noreferrer" aria-label="Loke.dev">
-          <font-awesome :icon="['fas', 'rss']"/>
-        </a>
+<!--        <a href="https://loke.dev" target="_blank" rel="noopener noreferrer" aria-label="Loke.dev">-->
+<!--          <font-awesome :icon="['fas', 'rss']"/>-->
+<!--        </a>-->
       </div>
     </div>
   </section>

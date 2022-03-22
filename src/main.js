@@ -15,8 +15,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faTwitter,
-  faFacebook,
+  faStackOverflow,
   faLinkedin,
   faHtml5,
   faJsSquare,
@@ -37,8 +36,7 @@ import {
 
 library.add(
     faGithub,
-    faTwitter,
-    faFacebook,
+    faStackOverflow,
     faLinkedin,
     faTrophy,
     faHtml5,
