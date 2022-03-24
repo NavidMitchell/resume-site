@@ -1,7 +1,7 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="opensource">
     <div class="w-100">
-      <h2 class="mb-5">Interests</h2>
+      <h2 class="mb-5">Open Source</h2>
       <p>Apart from being a frontend developer, I enjoy most of my time being outdoors. In the winter, I like to go ski and sometimes go ice fishing. During the summer, I enjoy mountain biking, running, and fishing.</p>
       <p
         class="mb-0"
