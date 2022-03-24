@@ -1,30 +1,11 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="hobbies">
     <div class="w-100">
-      <h2 class="mb-5">Awards &amp; Certifications</h2>
-      <ul class="fa-ul mb-0">
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>CSS Design Awards
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>Shopify Commerce Awards
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>1
-          <sup>st</sup>
-          Place - Foobar - Emerging Tech Competition 2012
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>1
-          <sup>st</sup>
-          Place - Foo Bar High School - Hackathon 2010
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>3
-          <sup>rd</sup>
-          Place - Foo Bar High School - Hackathon 2009
-        </li>
-      </ul>
+      <h2 class="mb-5">Hobbies</h2>
+      <p>Apart from being a frontend developer, I enjoy most of my time being outdoors. In the winter, I like to go ski and sometimes go ice fishing. During the summer, I enjoy mountain biking, running, and fishing.</p>
+      <p
+          class="mb-0"
+      >I like to create websites for fun, trying out new technologies and tools to improve myself as developer and stay up to date with current tech. I love watching ted talks and reading development stories on Reddit.</p>
     </div>
   </section>
 </template>

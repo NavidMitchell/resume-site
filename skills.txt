@@ -1,0 +1,25 @@
+Skill Set.
+
+Languages:
+
+Java, PHP, JavaScript, C/C++, Objective-c, Ruby, XHTML/HTML, CSS2/3,Less, SASS, SQL, HQL, JPQL, XML, Groovy, C#, VBA, Actionscript 3 / Flex / Air
+
+API's / Frameworks:
+
+Spring, Hibernate, JSF 1 & 2, OSGI, Velocity, Freemarker, jQuery, Dojo, KnockoutJS, AngularJS, YUI, J2EE, Ajax, Struts 1 & 2, Tiles, Swing/SWT, Wicket, Grails, BIRT, JUnit, BlazeDS, Symfony 2, Smarty, Twig, Doctrine, Propel, Zend, QT, Poco, Eclipse RCP, EclipseLink
+
+Databases:
+
+Microsoft SQL Server, MySql, DB2, HSQLDB, SQLite
+
+Development Utilities and Applications:
+
+Eclipse, Netbeans, Xcode, Apache2, IIS, Tomcat, JBoss, Weblogic, WordPress, Joomla, Subversion, CVS, Git, Apache Ant, Maven, Chef, RabbitMq
+
+Operating Environments:
+
+Linux, Android, OS X, Windows, AS400
+
+
+Thanks,
+Navid

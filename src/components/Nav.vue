@@ -20,7 +20,7 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#projects')">Experience</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#projects')">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#opensource')">Open Source</a>

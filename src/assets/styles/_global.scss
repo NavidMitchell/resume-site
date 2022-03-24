@@ -21,16 +21,18 @@ h5,
 h6 {
   @include heading-font;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   color: $gray-800;
 }
 
 h1 {
+  text-transform: uppercase;
   font-size: 6rem;
   line-height: 5.5rem;
 }
 
 h2 {
+  text-transform: uppercase;
   font-size: 3.5rem;
 }
 
@@ -44,41 +46,26 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
 }
 
-.social-icons {
-  a {
-    display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: $gray-700;
-    color: $white !important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem;
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
 
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &:hover {
-      background-color: $primary;
-    }
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
   }
 }
 
-.dev-icons {
-  font-size: 3rem;
-
-  .list-inline-item i {
-    &:hover {
-      color: $primary;
-    }
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
 }

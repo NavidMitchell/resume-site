@@ -9,50 +9,56 @@ import {
 } from '@fortawesome/fontawesome-svg-core'
 
 import {
+  faJava,
+  faPhp,
+  faJsSquare,
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faLess,
+  faAngular,
+  faReact,
+  faNodeJs,
+  faWordpress,
+  faGulp,
+  faGrunt,
+  faYarn,
+  faGithub,
+  faStackOverflow,
+  faLinkedin
+} from '@fortawesome/free-brands-svg-icons'
+
+import {
   faTrophy,
   faRss,
   faCheck
 } from '@fortawesome/free-solid-svg-icons'
-import {
-  faGithub,
-  faStackOverflow,
-  faLinkedin,
-  faHtml5,
-  faJsSquare,
-  faCss3Alt,
-  faAngular,
-  faReact,
-  faNodeJs,
-  faSass,
-  faLess,
-  faWordpress,
-  faGulp,
-  faGrunt,
-  faNpm,
-} from '@fortawesome/free-brands-svg-icons'
+
 import {
   FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
 
 library.add(
+    faJava,
+    faPhp,
+    faJsSquare,
+    faHtml5,
+    faCss3Alt,
+    faSass,
+    faLess,
+    faAngular,
+    faReact,
+    faNodeJs,
+    faWordpress,
+    faGulp,
+    faGrunt,
+    faYarn,
     faGithub,
     faStackOverflow,
     faLinkedin,
     faTrophy,
-    faHtml5,
-    faCss3Alt,
-    faJsSquare,
-    faAngular,
-    faReact,
-    faNodeJs,
-    faSass,
-    faLess,
-    faWordpress,
-    faGulp,
-    faGrunt,
-    faNpm,
     faRss,
-    faCheck,
+    faCheck
 )
 
 export default function (Vue, {

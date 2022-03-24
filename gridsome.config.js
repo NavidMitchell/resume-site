@@ -7,9 +7,11 @@ module.exports = {
       use: 'gridsome-plugin-typescript',
     },
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: 'gridsome-plugin-gtag',
       options: {
-       // id: 'UA-72659574-11'
+        config: {
+          id: 'G-6PLKP413XS',
+        }
       }
     },
     {
@@ -23,5 +25,13 @@ module.exports = {
     loaderOptions: {
       scss: {}
     }
+  },
+
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule
+        .use('vue-svg-loader')
+        .loader('vue-svg-loader')
   }
 }
