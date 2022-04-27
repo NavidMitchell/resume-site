@@ -12,7 +12,7 @@
           </slot>
         </div>
       </b-col>
-      <b-col class="text-md-right" cols="12" md="4">
+      <b-col v-if="when" class="text-md-right" cols="12" md="4">
         <span class="text-primary">{{when}}</span>
       </b-col>
     </b-row>
@@ -68,7 +68,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
            })
 export default class ProjectItem extends Vue {
 
-  @Prop({ required: true })
+  @Prop({ required: false })
   public when!: string
 
   constructor() {
